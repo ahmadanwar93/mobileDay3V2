@@ -62,7 +62,8 @@ class Dashboard extends React.Component{
                         }) */}
 
             <div style={{display:'flex', flexWrap:'wrap'}}>
-                        {products.filter((ele =>{
+                        {products.
+                        filter((ele =>{
                             if(this.state.name ===""){
                                 return ele;
                             }else if(ele["name"].includes(this.state.name)) {
